@@ -18,8 +18,8 @@ module.exports = {
             return res.render('MoviesDetail',{
                 movie
             })
-            .catch(error => console.log(error))
         })
+        .catch(error => console.log(error))
     },
 
     new : (req,res) => {
